@@ -921,6 +921,26 @@ header{
 				}
 			}
 		}
+		.read{
+			text-align: right;
+			a{
+				color: $brand-black;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+				font-size: 12px;
+				position: relative;
+				&:after{
+					position: absolute;
+					top: 7px;
+					left: -60px;
+					right: 0;
+					content: '';
+					width: 40px;
+					height: 1px;
+
+				}
+			}
+		}
 	}
 }
 
